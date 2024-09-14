@@ -1,0 +1,146 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.obox
+{
+    border: solid 1px;
+    height: 200px;
+    display:flex;
+
+    
+}
+#box1,#box2{
+    border: solid 1px;
+    height: 200px;
+    
+}
+#box1{
+    width:200px;    
+}
+#box2{
+    width:1800px;
+    text-align: center;
+    background-color: black;
+}
+h1{
+    font-size: 50px;
+    color:white;
+}
+#text1{
+    color:white;
+}
+#text2 {
+    color: brown;
+    font-size: 30px;
+}
+#clgname{
+    font-size: 50px;
+    color: rgb(245, 234, 234);
+    font-style: normal;
+}
+#scrolltext{
+    font-size: 30px;
+    color: brown;
+    font-weight: bold;
+    background-color:yellow;
+
+}
+#navbox 
+{ 
+    border: solid 1px;
+    height: 50px; 
+    background-color:white; 
+    justify-content: space-between;
+
+}
+ul li{
+
+        border:solid 1px;
+    height: 50px;
+    width: 220px;
+    float: left ;
+    text-align: center; 
+    line-height: 49px;
+    background-color: brown ;
+    
+margin-right: 2px;
+margin-bottom: 3px;
+}
+ul{
+list-style: none;
+}
+ul li a{
+    color:white ;
+font-size: 20px ;
+text-decoration:none ;
+}
+ul li ul li{
+    display: none;   
+}
+ul li:hover ul li{
+    display: block;
+}
+ul li:hover 
+{
+    background-color: red;
+}
+ul li ul li:hover {
+    background-color: blue;
+
+}
+ul li ul li{
+    width:250px;
+}
+ul li a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.outbox {
+    border: solid 1px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+h3{
+    background-color: black;
+    color: white;
+}
+#in1,#in2,#in3 {
+    border: solid 1px;
+    height: 400px;
+    z-index: -1;
+}
+#in1
+{
+    width: 800px;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: 800px 400px;
+    animation-name: imgchange;
+animation-duration: 20s;
+animation-iteration-count: infinite;
+}
+@keyframes imgchange {
+    10% {
+        background-image: url(home_bnr.jpg);
+    }
+    20% {
+        background-image: url(Highest-Placement.jpg);
+    }
+    30% {
+        background-image: url(place.jpg);
+    }
+    40% {
+        background-image: url(campus_green2.webp);
+    }
+    50% {
+        background-image: url(download.png);
+    }
+}
+#in2,#in3 {
+    width: 480px;
+}
